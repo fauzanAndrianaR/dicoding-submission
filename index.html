@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzan Andriana Rachman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+        <img src="assets/image/FAUZANN.png"></a>
+    </div>
+    <nav>
+        <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#tentangsaya">About Me</a></li>
+        <li><a href="#kontak" >kontak</a></li>
+        <li><button onclick="myFunction()" class="darkmode">Darkmode</button>
+        </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <article id="jumbotron">
+        <div id="jumbotrontext">
+            <h3>Halo semua, Saya</h3>
+            <h1>FAUZAN ANDRIANA RACHMAN </h1>
+            <p>
+                "Programming itu mudah kalo tidak susah."
+            </p>
+            <a href="#kontak" class="button">Hubungi Saya</a>
+        </div>
+        <div id="jumbotrongambar">
+            <img src="assets/image/desain.png" class="desain" alt="Illustration">
+        </div>
+    </article>
+
+    
+<article id="tentangsaya">
+    <div class="saya">
+        <h3>Tentang Saya</h3>
+        <h1>Yuk, Kenali Fauzan lebih jauh Lagi!</h1>
+        <p>Fauzan Andriana Rachman adalah seorang mahasiswa dari program studi Teknik Informatika Semester 6 di 
+            Universitas Sangga Buana yang memiliki antusiasme di bidang Software Development dan Data Analytics
+        </p>
+    </div>
+    <div class="saya2">
+        <H2>Mari Berteman</H2>
+        <p>Ayo berkenalan dengan saya melalui platform sosial media berikut untuk berinteraksi dan bekerjasama</p>
+        <tr>
+            <td> <a href="https://www.instagram.com/fauzan.andrianar/" target="_blank"> <img src="assets/image/instagram.svg" alt="instagram"></a></td>
+        </tr>
+        <tr>
+            <td> <a href="https://www.linkedin.com/in/fauzan-andriana-r/" target="_blank"> <img src="assets/image/linkedin.png" alt="linkedin"></a></td>
+        </tr>
+
+
+    </div>
+</article>
+
+<article id="kemampuan">
+    <h1 class="judul">Kemampuan</h1>
+    <div id="skill">
+<div class="item">
+    <img src="assets/image/html.png"  alt="html">
+</div>
+<div class="item">
+    <img src="assets/image/css.png"  alt="css">
+</div>
+<div class="item">
+    <img src="assets/image/js.png"  alt="javascript">
+</div>
+<div class="item">
+    <img src="assets/image/sql.svg" alt="sql">
+</div>
+</div>
+</article>
+
+
+<aside id="kontak">
+    <div class="kontakform">
+        <div class="card">
+            <h3>Kontak Saya</h3>
+            <form action="" method="POST">
+                <div class="formgroup">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="formgroup">
+                    <label for="pesan">Pesan</label>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+                    <p>*Pesan wajib diisi.</p>
+                </div>
+                <div class="formgroup">
+                    <input type="submit" value="Kirim" class="btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+ <div class="kontakbio">
+                <div class="card">
+                    <img src="assets/image/foto.png" class="profilekontak">
+                    <h4>Fauzan Andriana Rachman</h4>
+                    <p>Author</p>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>Email</th>
+                                    <td>fauzanrachman05@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th>Alamat</th>
+                                    <td>Bandung, Jawa Barat</td>
+                                </tr>
+                                <tr>
+                                    <th>Telp</th>
+                                    <td>+6281221987115</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    </aside>
+
+</main>
+
+<footer id="footer">
+    <div class="footerkonten">
+        <div class="footerlogo">
+            <img src="assets/image/FAUZANN.png">
+            <p>Fauzan Andriana Rachman.</p>
+            <p>2113218040.</p>
+
+        </div>
+        
+        <div class="footerkontak">
+            <h4 class="text-primary">Kontak</h4>
+            <p>fauzanrachman05@gmail.com</p>
+            <p>Bandung, Jawa Barat</p>
+        </div>
+    </div>
+    <div class="footercopyright">
+        <p>Copyright &copy; 2024 -Fauzan Andriana Rachman. All Rights Reserved</p>
+    </div>
+</footer>
+
+
+
+<script>
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
